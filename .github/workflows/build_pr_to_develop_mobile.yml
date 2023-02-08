@@ -1,4 +1,4 @@
-name: running-checks
+name: Running PR checks
 
 on:
   - push
