@@ -2,7 +2,6 @@ name: Running PR checks
 
 on:
   - push
-  - pull_request
 
 jobs:
   cache-and-install:
@@ -38,11 +37,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: Installing E2E dependencies
-        run: npx playwright install
-
       - name: Install dependencies
         run: pnpm install
+        run: npx playwright install
 
       - name: Check
         run: |
