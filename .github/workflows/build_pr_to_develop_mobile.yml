@@ -38,6 +38,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
+      - name: Installing E2E dependencies
+        run: npx playwright install
+
       - name: Install dependencies
         run: pnpm install
 
