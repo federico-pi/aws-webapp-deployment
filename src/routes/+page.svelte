@@ -10,7 +10,8 @@
 		height: calc(100vh - 32px);
 	}
 
-	.container {
+	.content {
 		color: blueviolet;
+		font-size: 24px;
 	}
 </style>
