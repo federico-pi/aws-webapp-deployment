@@ -5,7 +5,7 @@
 		<a class="nav-item" href="/settings">Settings</a>
 	</nav>
 	<div class="container">
-		<h2 class="content">Home</h2>
+		<h2 class="content">Settings</h2>
 	</div>
 </div>
 
